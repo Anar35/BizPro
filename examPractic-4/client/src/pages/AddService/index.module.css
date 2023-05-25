@@ -1,0 +1,17 @@
+#add {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.171);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}

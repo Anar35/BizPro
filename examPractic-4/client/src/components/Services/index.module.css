@@ -1,0 +1,50 @@
+
+.card{
+    text-align: center;
+}
+.cardTitle {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  transition: .4s;
+}
+.card:hover .cardTitle{
+    color: #d73e4d;
+}
+.cardBtn {
+  text-align: center;
+  color: black;
+  background-color: transparent;
+  border: 1px solid #d73e4d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 50px;
+  padding: 0 33px;
+  position: relative;
+  display: block;
+  margin: 20px auto 0;
+  z-index: 9;
+  transition: .5s;
+  outline: none;
+}
+.cardBtn::before {
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: #d73e4d;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  transition: 0.5s cubic-bezier(0.82, 1.41, 0.72, 0.21);
+}
+.cardBtn:hover::before {
+  width: 100%;
+}
+.cardBtn:hover {
+  color: white;
+}

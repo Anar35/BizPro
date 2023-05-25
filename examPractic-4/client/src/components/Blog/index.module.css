@@ -1,0 +1,24 @@
+.cardTitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 30px !important;
+  display: block;
+  color: black;
+  transition: 0.3s;
+}
+.cardTitle:hover {
+  color: #d73e4d;
+}
+.cardLink {
+  color: #292929;
+  transition: 0.3s;
+}
+.card:hover .cardLink {
+  color: #d73e4d;
+}
+.cardImg{
+    transition: .5s;
+}
+.card:hover .cardImg {
+  transform: scale(1.2);
+}
